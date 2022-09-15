@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/r">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="8"
+        android:inputType="textPersonName"
+        android:hint="@string/euser"
+        android:textSize="30sp"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pas"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="@string/pass"
+        android:textSize="30sp"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/savebtn"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Log"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Exit"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>
